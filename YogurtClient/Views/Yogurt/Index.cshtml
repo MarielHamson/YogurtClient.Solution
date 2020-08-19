@@ -1,0 +1,22 @@
+<h1>All Yogurts:</h1>
+
+<ol>
+@foreach (Yogurt yogurt in Model)
+{
+    <ul>
+        <li>ID: @yogurt.YogurtId</li>
+        <li>Brand: @yogurt.Namend</li>
+        <liFlavors: yogurtlFlavors</li>
+        <liBlendede: yogurtlBlendede</li>
+        <liTyper: yogurtlTyper</li
+        <li>Protein: @yogurt.Protein</li>
+        <li>Sugar: @yogurt.Sugar</li>
+        <li>Fat: @yogurt.Fat</li>
+        <li>Carbs: @yogurt.Carbs</li>
+        <li>Calories: @yogurt.Calories</li>
+     </ul>
+    <a href="/Yogurts/Details/@(yogurt.YogurtId)"><p>View Details</p></a>
+    <br>
+}
+</ol>
+}

@@ -38,5 +38,15 @@ namespace YogurtClient.Models
 
       return yogurtList;
     }
+
+    public static Yogurt GetDetails(int id)
+    {
+      var apiCallTalk = ApiHelper.Get(id);
+      var result = apiCallTask.Result;
+
+      JObject jsonResponse = JsonConvert.DeserializeObject<JObject>(result);
+      Yogurt yogurt = JsonConvert.DeserializeObject<Yogurt>(jsonResponse.ToString());
+      return yogurt;
+    }
   }
 }
