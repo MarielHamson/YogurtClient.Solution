@@ -48,5 +48,21 @@ namespace YogurtClient.Models
       Yogurt yogurt = JsonConvert.DeserializeObject<Yogurt>(jsonResponse.ToString());
       return yogurt;
     }
+    public static void Post(Yogurt yogurt)
+    {
+      string jsonYogurt = JsonConvert.SerializeObject(yogurt);
+      var apiCallTask = ApiHelper.Post(jsonYogurt);
+    }
+
+    public static void Put(Yogurt yogurt)
+    {
+      string jsonYogurt = JsonConvert.SerializeObject(yogurt);
+      var apiCallTask = ApiHelper.Put(yogurt.YogurtId, jsonYogurt);
+    }
+
+    public static void Delete(int id)
+    {
+      var apiCallTask = ApiHelper.Delete(id);
+    }
   }
 }

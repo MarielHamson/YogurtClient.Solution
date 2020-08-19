@@ -12,7 +12,7 @@ namespace YogurtClient.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            return RedirectToAction("Index", "Yogurts");
         }
 
         public IActionResult Privacy()
