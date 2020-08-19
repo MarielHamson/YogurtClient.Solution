@@ -12103,11 +12103,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/MamaJude/Desktop/YogurtClient.Solution/YogurtClient/YogurtClient.csproj",
+      "projectUniqueName": "/Users/MamaJude/Desktop/Yogurts/YogurtClient.Solution/YogurtClient/YogurtClient.csproj",
       "projectName": "YogurtClient",
-      "projectPath": "/Users/MamaJude/Desktop/YogurtClient.Solution/YogurtClient/YogurtClient.csproj",
+      "projectPath": "/Users/MamaJude/Desktop/Yogurts/YogurtClient.Solution/YogurtClient/YogurtClient.csproj",
       "packagesPath": "/Users/MamaJude/.nuget/packages/",
-      "outputPath": "/Users/MamaJude/Desktop/YogurtClient.Solution/YogurtClient/obj/",
+      "outputPath": "/Users/MamaJude/Desktop/Yogurts/YogurtClient.Solution/YogurtClient/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

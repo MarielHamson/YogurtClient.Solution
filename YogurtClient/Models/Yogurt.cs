@@ -41,7 +41,7 @@ namespace YogurtClient.Models
 
     public static Yogurt GetDetails(int id)
     {
-      var apiCallTalk = ApiHelper.Get(id);
+      var apiCallTask = ApiHelper.Get(id);
       var result = apiCallTask.Result;
 
       JObject jsonResponse = JsonConvert.DeserializeObject<JObject>(result);

@@ -45,7 +45,7 @@ namespace YogurtClient.Controllers
 
     public IActionResult Delete(int id)
     {
-      Animal.Delete(id);
+      Yogurt.Delete(id);
       return RedirectToAction("Index");
     }
   }

@@ -26,9 +26,9 @@ namespace YogurtClient.Models
     {
       RestClient client = new RestClient("http://localhost:5000/api");
       RestRequest request = new RestRequest($"yogurts", Method.POST);
-      requst.AddHeader("Content-Type", "application/json");
+      request.AddHeader("Content-Type", "application/json");
       request.AddJsonBody(newYogurt);
-      var response = await client.ExeuteTaskAsync(request);
+      var response = await client.ExecuteTaskAsync(request);
     }
 
     public static async Task Put(int id, string newYogurt)

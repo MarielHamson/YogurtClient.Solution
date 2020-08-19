@@ -1,3 +1,30 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>New Animal:</h1>
+
+<form action="/yogurts" method="post">
+  <label for="brand">Yogurt's Brand</label>
+  <input id="brand" name="brand" type="text">
+  <label for="flavor">Yogurt's Flavor</label>
+  <input id="flavor" name="flavor" type="text">
+  <label for="blended">Blended or Nah?</label>
+  <input id="blended" name="blended" type="checkbox"> 
+  @* does this need a true false value attached *@
+  <label for="type">Yogurt's Type</label>
+  <input id="type" name="type" type="text">
+  <label for="protein">Yogurt's Protein in grams</label>
+  <input id="protein" name="protein" type="text">
+  <label for="sugar">Yogurt's Sugar Content in grams</label>
+  <input id="sugar" name="sugar" type="text">
+  <label for="fat">Yogurt's Fat content in grams</label>
+  <input id="fat" name="fat" type="text">
+  <label for="calories">Yogurt's Calories</label>
+  <input id="calories" name="calories" type="text">
+  <button type="submit">Go!</button>
+</form>
+
 <h1>All Yogurts:</h1>
 
 <ol>
@@ -5,18 +32,19 @@
 {
     <ul>
         <li>ID: @yogurt.YogurtId</li>
-        <li>Brand: @yogurt.Namend</li>
-        <liFlavors: yogurtlFlavors</li>
-        <liBlendede: yogurtlBlendede</li>
-        <liTyper: yogurtlTyper</li
+        <li>Brand: @yogurt.Brand</li>
+        <li>Flavors: @yogurt.Flavor</li>
+        <li>Blended: @yogurt.Blended</li>
+        <li>Type: @yogurt.Type</li>
         <li>Protein: @yogurt.Protein</li>
         <li>Sugar: @yogurt.Sugar</li>
         <li>Fat: @yogurt.Fat</li>
         <li>Carbs: @yogurt.Carbs</li>
         <li>Calories: @yogurt.Calories</li>
-     </ul>
+    </ul>
     <a href="/Yogurts/Details/@(yogurt.YogurtId)"><p>View Details</p></a>
     <br>
 }
 </ol>
-}
+
+     @* @Html.CheckBoxFor(model => model.IsWorking, false)<br> *@
