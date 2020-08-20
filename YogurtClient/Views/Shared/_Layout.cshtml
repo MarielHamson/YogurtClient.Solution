@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+﻿@* <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -10,10 +10,10 @@
     </environment>
     <environment exclude="Development">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
-              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute"
-              crossorigin="anonymous"
-              integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"/>
+                asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+                asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute"
+                crossorigin="anonymous"
+                integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"/>
     </environment>
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
@@ -74,4 +74,44 @@
 
     @RenderSection("Scripts", required: false)
 </body>
+</html> *@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Yogurts</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="~/css/styles.css" type="text/css">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-2">
+          @Html.Partial("_Nav")
+        </div>
+        <div class="col-md-10">
+          @RenderBody()
+        </div>
+      </div>
+    </div>
+  </body>
+</html><!DOCTYPE html>
+<html>
+  <head>
+    <title>Sneuss Machines</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="~/css/styles.css" type="text/css">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-2">
+          @Html.Partial("_Nav")
+        </div>
+        <div class="col-md-10">
+          @RenderBody()
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
