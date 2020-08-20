@@ -1872,8 +1872,8 @@
   "RootNamespace": "YogurtClient",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\Megan\\desktop\\proj\\YogurtClient.Solution\\YogurtClient\\Views\\Yogurt\\Index.cshtml",
-      "TargetPath": "Views\\Yogurt\\Index.cshtml",
+      "FilePath": "c:\\Users\\Megan\\desktop\\proj\\YogurtClient.Solution\\YogurtClient\\Views\\Yogurts\\Index.cshtml",
+      "TargetPath": "Views\\Yogurts\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -1884,11 +1884,6 @@
     {
       "FilePath": "c:\\Users\\Megan\\desktop\\proj\\YogurtClient.Solution\\YogurtClient\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Megan\\desktop\\proj\\YogurtClient.Solution\\YogurtClient\\Views\\Yogurt\\Edit.cshtml",
-      "TargetPath": "Views\\Yogurt\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -1922,8 +1917,13 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Megan\\desktop\\proj\\YogurtClient.Solution\\YogurtClient\\Views\\Yogurt\\Details.cshtml",
-      "TargetPath": "Views\\Yogurt\\Details.cshtml",
+      "FilePath": "c:\\Users\\Megan\\desktop\\proj\\YogurtClient.Solution\\YogurtClient\\Views\\Yogurts\\Edit.cshtml",
+      "TargetPath": "Views\\Yogurts\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Megan\\desktop\\proj\\YogurtClient.Solution\\YogurtClient\\Views\\Yogurts\\Details.cshtml",
+      "TargetPath": "Views\\Yogurts\\Details.cshtml",
       "FileKind": "mvc"
     }
   ],
