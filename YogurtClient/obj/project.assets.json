@@ -12097,23 +12097,23 @@
     ]
   },
   "packageFolders": {
-    "/Users/MamaJude/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\Megan\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/MamaJude/Desktop/Yogurts/YogurtClient.Solution/YogurtClient/YogurtClient.csproj",
+      "projectUniqueName": "C:\\Users\\Megan\\desktop\\proj\\YogurtClient.Solution\\YogurtClient\\YogurtClient.csproj",
       "projectName": "YogurtClient",
-      "projectPath": "/Users/MamaJude/Desktop/Yogurts/YogurtClient.Solution/YogurtClient/YogurtClient.csproj",
-      "packagesPath": "/Users/MamaJude/.nuget/packages/",
-      "outputPath": "/Users/MamaJude/Desktop/Yogurts/YogurtClient.Solution/YogurtClient/obj/",
+      "projectPath": "C:\\Users\\Megan\\desktop\\proj\\YogurtClient.Solution\\YogurtClient\\YogurtClient.csproj",
+      "packagesPath": "C:\\Users\\Megan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Megan\\desktop\\proj\\YogurtClient.Solution\\YogurtClient\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/MamaJude/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Megan\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"

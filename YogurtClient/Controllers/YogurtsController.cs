@@ -10,6 +10,7 @@ namespace YogurtClient.Controllers
 {
   public class YogurtsController : Controller
   {
+
     public IActionResult Index()
     {
       var allYogurts = Yogurt.GetYogurts();
